@@ -1,0 +1,21 @@
+{
+  "name": "flower-challange",
+  "version": "1.0.0",
+  "description": "Coding challenge for the bloomon job interview",
+  "scripts": {
+    "start": "npm run file",
+    "file": "MODE=file node ./src/index.js",
+    "cli": "MODE=cli node ./src/index.js",
+    "test": "jasmine tests/*.spec.js"
+  },
+  "keywords": [
+    "Node",
+    "Coding Challange",
+    "Interview"
+  ],
+  "author": "rakhma.abdelghafour@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  }
+}
